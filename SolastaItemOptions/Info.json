@@ -1,0 +1,13 @@
+{
+	"Id": "SolastaItemOptions",
+	"DisplayName": "SolastaItemOptions",
+	"Author": "silvergriffon",
+	"Version": "0.1.0",
+	"ManagerVersion": "0.23.4",
+	"Requirements": [ "SolastaModApi" ],
+	"LoadAfter": [ "SolastaModApi" ],
+	"AssemblyName": "SolastaItemOptions.dll",
+	"EntryMethod": "SolastaItemOptions.Main.Load",
+	"Repository": "https://raw.githubusercontent.com/silvergriffon/SolastaItemOptions/main/SolastaItemOptions/Repository.json",
+	"HomePage": "https://www.nexusmods.com/solastacrownofthemagister/mods/##"
+}
