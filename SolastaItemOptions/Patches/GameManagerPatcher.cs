@@ -1,4 +1,5 @@
 using HarmonyLib;
+using SolastaItemOptions.Models;
 
 namespace SolastaItemOptions.Patches
 {
@@ -9,7 +10,10 @@ namespace SolastaItemOptions.Patches
         {
             internal static void Postfix()
             {
-                Main.OnGameReady();
+                ItemOptionsContext.Load();
+                ItemReskinContext.Load();
+                AdditionalFociContext.Load();
+                MerchantRestockOptionsContext.Load(); ;
             }
         }
     }
