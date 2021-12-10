@@ -21,5 +21,6 @@ namespace SolastaItemOptions
         public bool RestockArcaneum = false;
         public bool RestockAntiquarians = false;
         public bool ClothingGorimStock = false;
+        public bool FixUniversalFoci = false;
     }
 }
